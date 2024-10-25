@@ -3,4 +3,5 @@ export interface ShareCardProps {
     longName: string,
     symbol: string,
     regularMarketPrice: string | number,
+    currency: string 
 }

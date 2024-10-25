@@ -26,6 +26,7 @@ const Login = () => {
                 sessionStorage.setItem('token', response.data.token);
                 const testeRecuperaDado = sessionStorage.getItem('token');
                 alert('Dado Recuperado do session storage: ' + testeRecuperaDado);
+                window.location.href = '/Home/AreaLogada';
             } else {
                 alert('Falha no login');
             }
